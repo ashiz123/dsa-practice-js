@@ -14,5 +14,8 @@ function rangeSum(range, prefix) {
 // Example usage
 const arr = [5, 4, 3, 2, 6, 1];
 const prefix = createPrefixSum(arr);
+const range = [2,3];
 
-console.log(rangeSum([2,3], prefix));  // Output: 3 + 2 + 6 + 1 = 12
+// console.log(rangeSum(range, prefix));
+
+module.exports = {createPrefixSum, rangeSum};

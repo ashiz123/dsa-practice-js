@@ -23,5 +23,4 @@ function hundredDoors(){
 
 }
 
-
-console.log(hundredDoors());
+module.exports = hundredDoors;
